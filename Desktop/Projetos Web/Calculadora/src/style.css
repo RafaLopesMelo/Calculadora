@@ -1,0 +1,169 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+}
+
+body {
+    display: grid;
+    grid-template-rows: 20vh 90vh 10vh;
+    grid-template-areas: 
+                        "header"
+                        "main"
+                        "footer";
+}
+
+header {
+    background-color: #A239CA;
+    background: linear-gradient(180deg, rgb(142, 50, 179) 0%, rgba(83,30,103,1) 50%, rgb(37, 29, 58) 100%);
+    grid-area: header;
+}
+
+header h1 {
+    font: bold 40pt Open Sans;
+    color: #E7DFDD;
+    margin: 40px auto auto 30px;
+}
+
+main {
+    grid-area: main;
+    background: linear-gradient(180deg, rgb(37, 29, 58) 0%, rgba(14,11,22,1) 100%);
+}
+
+div#display {
+    border-radius: 10px 10px 0px 0px;
+    margin: 20px auto auto auto;
+    height: 115px;
+    width: 29.9%;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+div#display p {
+    font: bold 35pt Arial;
+    color: white;
+    text-align: right;
+    padding-top: 35px;
+    text-align: center;
+}
+
+div#calculadora {
+    margin: auto auto auto;
+    width: 30%;
+    height: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+                        "ac c pc div"
+                        "sete oito nove mult"
+                        "quatro cinco seis menos"
+                        "um dois tres mais"
+                        "zer zer ponto igual";
+}
+
+input:hover {
+    background-color: rgb(69, 25, 85);
+    font-size: 18pt;
+}
+
+
+input {
+    color: white;
+    font-family: 'Source Sans Pro';
+    font-size: 20pt;
+    background-color: rgba(83,30,103,1);
+    border-color: rgba(142, 50, 179, 0.5);
+}
+
+footer {
+    padding-top: 20px;
+    margin: 0px !important;
+    height: 100%;
+    width: 100%;
+    background-color:  rgba(14,11,22,1);
+    grid-area: footer;
+    display: grid;
+    grid-template-columns: 32vw 32vw 32vw;
+    grid-template-areas: "autor email whats";
+}
+
+footer span {
+    text-align: center;
+    color: white;
+    font: bold 20pt Open Sans;
+}
+
+footer span#email {
+    grid-area: email;
+}
+
+footer span#whats {
+    grid-area: whats;
+    margin-top: 20px;
+}
+
+footer span#autor {
+    grid-area: autor;
+    margin-top: 20px;
+}
+
+
+/** Botões da calculadora*/
+
+#um {
+    grid-area: um;
+}
+#dois {
+    grid-area: dois;
+}
+#tres {
+    grid-area: tres;
+}
+#quatro {
+    grid-area: quatro;
+}
+#cinco {
+    grid-area: cinco;
+}
+#seis {
+    grid-area: seis;
+}
+#sete {
+    grid-area: sete;
+}
+#oito {
+    grid-area: oito;
+}
+#nove {
+    grid-area: nove;
+}
+#zero {
+    grid-area: zer;
+}
+#c {
+    grid-area: c;
+}
+#ac {
+    grid-area: ac;
+}
+#div {
+    grid-area: div;
+}
+#mult {
+    grid-area: mult;
+}
+#mais {
+    grid-area: mais;
+}
+#menos {
+    grid-area: menos;
+}
+#porcento {
+    grid-area: pc;
+}
+#ponto {
+    grid-area: ponto;
+}
+#igual {
+    grid-area: igual;
+}
