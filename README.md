@@ -14,3 +14,6 @@ Desenvolvimento pessoas:
 - Maior vocabulário em JavaScript
 - Novos atributos CSS
 - Maior organização de arquivos
+
+Autor: Rafael Lopes de Melo
+Contato: rafaelmelo.programmer@gmail.com
