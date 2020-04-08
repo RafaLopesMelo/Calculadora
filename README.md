@@ -5,7 +5,7 @@ Este projeto foi retirado do repositório https://github.com/florinpop17/app-ide
 
 ## Começando
 
-Para executar o app ou modificá-lo, basta apenas baixar os arquivos e executá-los no broser. Para tal, execute os seguintes comandos no terminal:
+Para executar o app ou modificá-lo, basta apenas baixar os arquivos e executá-los no browser. Para tal, execute os seguintes comandos no terminal:
 
   $ cd 'diretório de sua preferência' <br>
   $ git clone https://github.com/RafaLopesMelo/Calculadora
